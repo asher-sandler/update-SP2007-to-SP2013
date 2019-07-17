@@ -1,0 +1,10 @@
+BACKUP DATABASE [WSS_CONTENT_2007] TO  DISK = N'\\s29db05\c$\AdminDir\Backup\JobPortal.bak' WITH NOFORMAT, 
+INIT,  
+NAME = N'WSS_CONTENT_2007-Full Database Backup', 
+SKIP, 
+NOREWIND, 
+NOUNLOAD,  
+STATS = 10
+
+
+GO
